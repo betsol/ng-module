@@ -24,7 +24,7 @@ to BETSOL and/or to Slava Fomin, thank you!
 
 ### Install library with NPM
 
-`npm install --save betsol-ng-module
+`npm install --save betsol-ng-module`
 
 
 ### Add library to your page
