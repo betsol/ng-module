@@ -1,15 +1,16 @@
 {
-    "name": "betsol-ng-module",
-    "description": "A template project for Angular.js modules",
-    "version": "0.0.0",
-    "main": "dist/betsol-ng-module.js",
-    "ignore" : [
-        "src",
-        ".*",
-        "gulpfile.js",
-        "package.json"
-    ],
-    "dependencies": {
-        "angular": "~1"
-    }
+  "name": "betsol-ng-module",
+  "description": "A template project for Angular.js modules",
+  "version": "0.0.0",
+  "main": "dist/betsol-ng-module.js",
+  "ignore": [
+    "src",
+    ".*",
+    "gulpfile.js",
+    "package.json"
+  ],
+  "devDependencies": {
+    "angular": "~1",
+    "angular-mocks": "~1.4.6"
+  }
 }

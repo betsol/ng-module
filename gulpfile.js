@@ -17,6 +17,8 @@ var gutil = require('gulp-util');
 var ngAnnotate = require('gulp-ng-annotate');
 var concat = require('gulp-concat');
 var header = require('gulp-header');
+var runSequence = require('run-sequence');
+var KarmaServer = require('karma').Server;
 
 
 //=========//
@@ -39,7 +41,7 @@ gulp.task('clean', function (callback) {
 
 gulp.task('build', ['clean'], function () {
   var headerContent = fs.readFileSync('src/header.js', 'utf8');
-  gulp
+  return gulp
     .src([
       // @todo: list all source files here
       './src/module.js'
@@ -59,8 +61,24 @@ gulp.task('build', ['clean'], function () {
 });
 
 
+//======//
+// TEST //
+//======//
+
+gulp.task('test', ['test:unit']);
+
+gulp.task('test:unit', function (done) {
+  new KarmaServer({
+    configFile: __dirname + '/karma.conf.js',
+    singleRun: true
+  }, done).start();
+});
+
+
 //==============//
 // DEFAULT TASK //
 //==============//
 
-gulp.task('default', ['build']);
+gulp.task('default', function (done) {
+  runSequence('build', 'test', done);
+});
