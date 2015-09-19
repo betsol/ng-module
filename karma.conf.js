@@ -11,7 +11,7 @@ module.exports = function (config) {
       'dist/betsol-ng-module.js',
 
       // Tests
-      'test/unit/**/test-*.js'
+      'test/**/test-*.js'
     ],
     exclude: [],
     preprocessors: {},
