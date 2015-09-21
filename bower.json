@@ -1,7 +1,7 @@
 {
   "name": "betsol-ng-module",
   "description": "A template project for Angular.js modules",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist/betsol-ng-module.js",
   "ignore": [
     "src",
@@ -11,6 +11,8 @@
     "karma.conf.js",
     "package.json"
   ],
+  "dependencies": {
+  },
   "devDependencies": {
     "angular": "~1",
     "angular-mocks": "~1.4.6"
@@ -20,6 +22,8 @@
     "url": "git://github.com/betsol/ng-module.git"
   },
   "keywords": [
-    "angular", "angular.js"
+    "betsol",
+    "angular",
+    "angular.js"
   ]
 }

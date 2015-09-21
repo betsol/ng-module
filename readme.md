@@ -15,16 +15,23 @@ to BETSOL and/or to Slava Fomin, thank you!
 - Replace "betsol.module" with an actual name of the module
 
 
+## Features
+
+- Distribution files are built using Gulp pipeline
+- Minified copy of distribution files are also generated
+- Testing framework is provided by Karma, Mocha and Expect.js 
+
+
 ## Installation
 
 ### Install library with Bower
 
-`bower install --save betsol-ng-module`
+`bower i --save betsol-ng-module`
 
 
 ### Install library with NPM
 
-`npm install --save betsol-ng-module`
+`npm i --save betsol-ng-module`
 
 
 ### Add library to your page
@@ -86,7 +93,7 @@ Fork, clone, create a feature branch, implement your feature, cover it with test
 
 Run:
 
-- `npm install && bower install` to initialize the project
+- `npm i && bower i` to initialize the project
 - `gulp build` to re-build the dist files
 - `gulp test` or `karma start` to test the code
 

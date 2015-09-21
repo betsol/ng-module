@@ -8,7 +8,7 @@ module.exports = function (config) {
       'bower_components/angular-mocks/angular-mocks.js',
 
       // Module files
-      'dist/betsol-ng-module.js',
+      'dist/scripts/betsol-ng-module.js',
 
       // Tests
       'test/**/test-*.js'
