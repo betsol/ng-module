@@ -1,5 +1,12 @@
 # betsol-ng-module changelog
 
+## Version 0.0.2
+(11 Feb 2016)
+
+- Updated dependencies
+- Updated README
+
+
 ## Version 0.0.1
 (21 Sep 2015)
 

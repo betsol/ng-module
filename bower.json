@@ -1,7 +1,7 @@
 {
   "name": "betsol-ng-module",
   "description": "A template project for Angular.js modules",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/betsol-ng-module.js",
   "ignore": [
     "src",

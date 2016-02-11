@@ -32,7 +32,7 @@ var htmlmin = require('gulp-htmlmin');
 //=======//
 
 gulp.task('clean', function (callback) {
-  del(['dist'], callback);
+  return del('dist');
 });
 
 

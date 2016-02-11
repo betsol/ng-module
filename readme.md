@@ -26,7 +26,7 @@ to BETSOL and/or to Slava Fomin, thank you!
 
 ### Install library with Bower
 
-`bower i --save betsol-ng-module`
+`bower install --save betsol-ng-module`
 
 
 ### Install library with NPM
@@ -93,7 +93,7 @@ Fork, clone, create a feature branch, implement your feature, cover it with test
 
 Run:
 
-- `npm i && bower i` to initialize the project
+- `npm i && bower install` to initialize the project
 - `gulp build` to re-build the dist files
 - `gulp test` or `karma start` to test the code
 
@@ -112,7 +112,7 @@ Thank you!
 
 The MIT License (MIT)
 
-Copyright (c) 2014 - 2015 Slava Fomin II, BETTER SOLUTIONS
+Copyright (c) 2016 Slava Fomin II, BETTER SOLUTIONS
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
