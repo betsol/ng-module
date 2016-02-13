@@ -20,6 +20,7 @@ var header = require('gulp-header');
 var runSequence = require('run-sequence');
 var KarmaServer = require('karma').Server;
 var htmlmin = require('gulp-htmlmin');
+var jshint = require('gulp-jshint');
 
 
 //=========//
@@ -51,6 +52,8 @@ gulp.task('build:scripts', function () {
     .src([
       './src/scripts/module.js'
     ])
+    .pipe(jshint())
+    .pipe(jshint.reporter('default'))
     .pipe(concat('betsol-ng-module.js'))
     .pipe(ngAnnotate({
       'single_quotes': true

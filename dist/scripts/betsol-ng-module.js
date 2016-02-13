@@ -6,7 +6,7 @@
  *
  * @author Slava Fomin II <s.fomin@betsol.ru>
  */
-(function (window, angular) {
+(function (angular) {
 
   'use strict';
 
@@ -24,4 +24,4 @@
 
   ;
 
-})(window, angular);
+})(angular);
