@@ -24,20 +24,20 @@ to BETSOL and/or to Slava Fomin, thank you!
 
 ## Installation
 
-### Install library with Bower
-
-`bower install --save betsol-ng-module`
-
-
-### Install library with NPM
+### Install library with *npm*
 
 `npm i --save betsol-ng-module`
+
+
+### Install library with *Bower*
+
+`bower install --save betsol-ng-module`
 
 
 ### Add library to your page
 
 ``` html
-<script src="/bower_components/betsol-ng-module/dist/betsol-ng-module.js"></script>
+<script src="/node_modules/betsol-ng-module/dist/betsol-ng-module.js"></script>
 ```
 
 You should use minified version (`betsol-ng-module.min.js`) in production.
