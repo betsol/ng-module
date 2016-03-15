@@ -13,10 +13,6 @@
   ],
   "dependencies": {
   },
-  "devDependencies": {
-    "angular": "~1",
-    "angular-mocks": "~1.4.6"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/betsol/ng-module.git"
