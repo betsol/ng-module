@@ -1,7 +1,7 @@
 {
   "name": "betsol-ng-module",
   "description": "A template project for Angular.js modules",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "homepage": "https://github.com/betsol/ng-module",
   "license": "MIT",
   "main": "index.js",
